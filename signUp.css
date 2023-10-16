@@ -1,0 +1,77 @@
+body{
+    background-image:url(istockphoto.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.signUp-container{
+    display: flex;
+    float: right;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-right: 15rem;
+    color: teal;
+    border: 1px solid teal;
+    border-radius: .4rem;
+    width: fit-content;
+    padding: .5rem;
+}
+
+input{
+    font-size: 14px;
+    padding: 1rem 1.5rem;
+    border-radius: .3rem;
+    background: linear-gradient(rgb(126, 242, 242),rgb(224, 210, 210));
+}
+
+input[type=text],[type=email],[type=tel]{
+    border: none;
+    outline: none;
+   
+}
+
+
+.signUp-btn{
+    cursor: pointer;
+    padding: .6rem 2.5rem;
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    font-size: 16px;
+    background-color: teal;
+}
+
+.signUp-btn:hover{
+    background-color: transparent;
+    border: 1px solid teal;
+    color: teal;
+}
+
+.signUp-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.signUp-btn:hover a{
+   color: teal;
+}
+
+
+.form-container{
+    /* display: none; */
+    padding: 1rem 2rem;
+ 
+    text-align: center;
+    width: fit-content;
+
+}
+
+.popup{
+    display: block;
+}
